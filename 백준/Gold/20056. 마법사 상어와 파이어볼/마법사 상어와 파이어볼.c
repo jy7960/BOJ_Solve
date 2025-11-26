@@ -100,7 +100,7 @@ void boom(queue* q){
 
 int main(){
     scanf("%d %d %d", &N, &M, &K);
-    queue* q = initQueue(M*M*4);
+    queue* q = initQueue(N*N*4);
     for(int i = 0; i < M; i++){
         int y, x, m, s, d;
         scanf("%d %d %d %d %d", &y, &x, &m, &s, &d);
